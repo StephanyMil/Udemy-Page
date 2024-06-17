@@ -3,61 +3,61 @@ body {
     margin: 0 0 0px 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-  }
+}
   
-  .container {
+.container {
     max-width: 1200px;
     margin: auto;
-  }
+}
   
-  .row {
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  .col-md-8,
+.col-md-8,
   .col-md-4 {
     padding: 20px;
-  }
+}
   
-  /* Estilos para o player de vídeo */
-  .video-player {
+/* Estilos para o player de vídeo */
+.video-player {
     width: 100%;
     height: 400px;
-  }
+}
   
-  /* Estilos para a descrição do curso */
+/* Estilos para a descrição do curso */
   .description {
     margin-top: 20px;
     text-align: justify;
-  }
+}
   
-  /* Estilos para a informação do curso */
-  .course-info {
+/* Estilos para a informação do curso */
+.course-info {
     background-color: white;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
-  }
+}
   
-  .course-info h2 {
+.course-info h2 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #333;
     font-size: 24px;
     font-weight: bold;
-  }
+}
   
-  /* Estilos para a lista de módulos */
-  .modules-list {
+/* Estilos para a lista de módulos */
+.modules-list {
     margin-top: 20px;
     list-style: none;
     padding: 0;
-  }
+}
   
-  /* Estilos para os módulos */
-  .modules-container {
+/* Estilos para os módulos */
+.modules-container {
     background-color: #f5f5f5; /* Fundo dos módulos */
     padding: 20px;
     border-radius: 5px;
@@ -66,14 +66,14 @@ body {
     width: 100%; /* Ocupa toda a largura da coluna */
     position: sticky; /* Fixa a barra dos módulos */
     top: 120px; /* Posiciona a barra dos módulos abaixo do vídeo */
-  }
+}
   
-  .module-item {
+.module-item {
     margin-bottom: 15px;
     position: relative;
-  }
+}
 
-  .module-item::after {
+.module-item::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -81,9 +81,9 @@ body {
     width: 100%;
     height: 1px;
     background-color: #ddd; /* Cor da linha de separação */
-  }
+}
   
-  /* Estilos para os botões de módulos e lições */
+/* Estilos para os botões de módulos e lições */
 .module-button,
 .lesson-button {
   background-color: #3C096C;

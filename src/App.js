@@ -16,9 +16,6 @@ function App() {
       <main className="main-content">
         <Course />
       </main>
-      <footer className="footer">
-        © 2024 Udemy - Todos os direitos reservados
-      </footer>
     </div>
   );
 }

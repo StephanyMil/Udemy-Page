@@ -49,17 +49,6 @@ img {
   margin-top: 20px;
 }
 
-/* Estilos para rodapé */
-.footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 /* Responsividade */
 @media (max-width: 768px) { /* Estilos para telas menores que 768px */
   .container {
