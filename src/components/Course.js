@@ -35,19 +35,21 @@ const Course = () => {
           <div className="course-info p-4 bg-light rounded">
             <h2>{courseData.title}</h2>
             <div className="modules-list mt-3">
-              <h3>Módulos</h3>
-              <ul>
-                {courseData.modules.map((module, moduleIndex) => (
-                  <li key={moduleIndex}>
-                    <button className="module-button">{module.title}</button>
-                    <ul className="buttons-container"> {/* Adicionado a classe buttons-container */}
-                      {module.lessons.map((lesson, lessonIndex) => (
-                        <li key={lessonIndex}><button className="lesson-button">{lesson}</button></li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
+              <h3>Sumário</h3>
+              <div className="modules-container"> {/* Adicione um container para os módulos */}
+                <ul>
+                  {courseData.modules.map((module, moduleIndex) => (
+                    <li key={moduleIndex} className="module-item">
+                      <button className="module-button">{module.title}</button>
+                      <ul className="buttons-container">
+                        {module.lessons.map((lesson, lessonIndex) => (
+                          <li key={lessonIndex}><button className="lesson-button">{lesson}</button></li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
