@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -8,10 +9,10 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark bg-custom">
         <a className="navbar-brand" href="#">
-          <img src="./images/udemy.png" alt="Udemy Logo"/>
+          <img src="./images/udemy.png" alt="Udemy Logo" />
         </a>
+        <h1 className="course-title">React.js Completo: Do Iniciante ao Profissional</h1> {/* Título do curso dentro da navbar */}
       </nav>
-      <h1 className="course-title">Aprenda React do Zero: O Guia Completo para Iniciantes</h1>
       <main className="main-content">
         <Course />
       </main>
