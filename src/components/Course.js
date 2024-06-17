@@ -37,7 +37,7 @@ const Course = () => {
       {
         title: 'Eventos e Hooks',
         progress: '0/3',
-        duration: '20 min',
+        duration: '40 min',
         lessons: [
             'Gerenciando Eventos', 
             'Usando useEffect', 
