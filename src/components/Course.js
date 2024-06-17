@@ -12,7 +12,7 @@ const Course = () => {
     modules: [
       {
         title: 'Introdução ao React',
-        progress: '0/6',
+        progress: '  0/6',
         duration: ' 72 min',
         lessons: [
             'Introdução',
@@ -25,7 +25,7 @@ const Course = () => {
       },
       {
         title: 'Componentes e Estado',
-        progress: '0/4',
+        progress: '  0/4',
         duration: '48 min',
         lessons: [
             'Componentes Funcionais e de Classe',
@@ -36,7 +36,7 @@ const Course = () => {
       },
       {
         title: 'Eventos e Hooks',
-        progress: '0/3',
+        progress: '  0/3',
         duration: '40 min',
         lessons: [
             'Gerenciando Eventos', 

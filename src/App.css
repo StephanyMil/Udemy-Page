@@ -59,3 +59,19 @@ img {
   bottom: 0;
   width: 100%;
 }
+
+/* Responsividade */
+@media (max-width: 768px) { /* Estilos para telas menores que 768px */
+  .container {
+    max-width: 90%;
+  }
+  .col-md-8, .col-md-4 {
+    width: 100%;
+  }
+  .video-player {
+    height: 300px; 
+  }
+  .course-title {
+    font-size: 1.5em; /* Ajuste o tamanho da fonte */
+  }
+}
