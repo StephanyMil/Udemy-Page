@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-8,.col-md-4 {
+    padding: 20px;
+}
+
+/* Estilos para o player de vídeo */
+.video-player {
+    width: 100%;
+    height: 400px;
+}
+
+/* Estilos para a descrição do curso */
+.description {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Estilos para a informação do curso */
+.course-info {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.course-info h2 {
+    margin-top: 0; /* Remove o espaço extra acima do título */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+    color: #333; /* Altera a cor do texto para um tom de cinza */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+.modules-list {
+    margin-top: 20px;
+}
+
+/* Estilos para os botões de módulos e lições */
+.module-button,
+.lesson-button {
+    background-color: #3C096C;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+   .row {
+        flex-direction: column;
+    }
+
+   .col-md-8,
+   .col-md-4 {
+        width: 100%;
+    }
+}

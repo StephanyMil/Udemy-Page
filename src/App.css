@@ -1,38 +1,54 @@
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para o componente App */
 .App {
   text-align: center;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Personalize a barra de navegação */
+.navbar {
+  background-color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-dark.bg-custom {
+  background-color: #3C096C!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar.navbar-brand {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para o conteúdo principal */
+.main-content {
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.course-title {
+  text-align: center;
+  margin-top: 10px; /* Espaçamento entre a logo e o título */
+  margin-bottom: 20px; /* Espaçamento entre o título e o vídeo */
+}
+
+/* Estilo da imagem */
+img {
+  width: 100px; /* Altura ou largura do contêiner */
+  object-fit: cover; /* Ajusta a imagem para cobrir completamente o contêiner */
+}
+
+
+/* Estilos para rodapé */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
