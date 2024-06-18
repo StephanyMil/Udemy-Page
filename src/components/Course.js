@@ -6,7 +6,7 @@ const Course = () => {
   const [activeModule, setActiveModule] = useState(null);
 
   const courseData = {
-    title: 'Sumário', // Adicione o título do curso
+    title: 'Sumário', 
     description: 'Domine o React.js e construa aplicações web interativas com este curso completo, ideal para iniciantes. Abordamos desde os conceitos básicos até a criação de projetos reais.',
     videoUrl: 'https://youtu.be/FXqX7oof0I4?si=OY4OY6D3XZvnmpdR',
     modules: [

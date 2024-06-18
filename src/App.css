@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-dark.bg-custom {
-  background-color: #3C096C!important;
+  background-color: #3C096C;
 }
 
 .navbar.navbar-brand {
@@ -43,9 +43,9 @@ img {
 }
 
 .navbar .course-title {
-  color: black; /* Define a cor do título como  */
+  color: black; /* Define a cor do título como  preto*/
   font-size: 28px; /* Define o tamanho da fonte do título */
-  font-weight: bold; /* Define o peso da fonte como negrito */
+  font-weight: bold; /* Define a fonte como negrito */
   margin-top: 20px;
 }
 
@@ -61,6 +61,6 @@ img {
     height: 300px; 
   }
   .course-title {
-    font-size: 1.5em; /* Ajuste o tamanho da fonte */
+    font-size: 1.5em; /* Ajusta o tamanho da fonte */
   }
 }
