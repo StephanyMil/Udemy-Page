@@ -12,7 +12,7 @@ const Course = () => {
     modules: [
       {
         title: 'Introdução ao React',
-        progress: '  0/6',
+        progress: '  1/6',
         duration: ' 72 min',
         lessons: [
             'Introdução',
